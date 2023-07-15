@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD8DEDBD2A5BEB1E00D67167 /* PersistenceTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDBC2A5BEB1E00D67167 /* PersistenceTestView.swift */; };
 		ADBE71502A3549D900BE345C /* KobbleBackendTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE714F2A3549D900BE345C /* KobbleBackendTestApp.swift */; };
 		ADBE71522A3549D900BE345C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE71512A3549D900BE345C /* ContentView.swift */; };
 		ADBE71542A3549DA00BE345C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBE71532A3549DA00BE345C /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD8DEDBC2A5BEB1E00D67167 /* PersistenceTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTestView.swift; sourceTree = "<group>"; };
 		ADBE714C2A3549D900BE345C /* KobbleBackendTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KobbleBackendTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBE714F2A3549D900BE345C /* KobbleBackendTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobbleBackendTestApp.swift; sourceTree = "<group>"; };
 		ADBE71512A3549D900BE345C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD8DEDBA2A52529900D67167 /* Old_Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE71512A3549D900BE345C /* ContentView.swift */,
+				ADBE718A2A41606500BE345C /* HomeView.swift */,
+			);
+			path = Old_Stuff;
+			sourceTree = "<group>";
+		};
+		AD8DEDBB2A5BEB0A00D67167 /* PersistenceTest */ = {
+			isa = PBXGroup;
+			children = (
+				AD8DEDBC2A5BEB1E00D67167 /* PersistenceTestView.swift */,
+			);
+			path = PersistenceTest;
+			sourceTree = "<group>";
+		};
 		ADBE71432A3549D900BE345C = {
 			isa = PBXGroup;
 			children = (
@@ -112,12 +131,12 @@
 		ADBE714E2A3549D900BE345C /* KobbleBackendTest */ = {
 			isa = PBXGroup;
 			children = (
+				AD8DEDBB2A5BEB0A00D67167 /* PersistenceTest */,
+				AD8DEDBA2A52529900D67167 /* Old_Stuff */,
 				ADBE71792A3E944000BE345C /* GoogleService-Info.plist */,
 				ADBE714F2A3549D900BE345C /* KobbleBackendTestApp.swift */,
-				ADBE71512A3549D900BE345C /* ContentView.swift */,
 				ADBE71532A3549DA00BE345C /* Assets.xcassets */,
 				ADBE71552A3549DA00BE345C /* Preview Content */,
-				ADBE718A2A41606500BE345C /* HomeView.swift */,
 			);
 			path = KobbleBackendTest;
 			sourceTree = "<group>";
@@ -290,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8DEDBD2A5BEB1E00D67167 /* PersistenceTestView.swift in Sources */,
 				ADBE718B2A41606500BE345C /* HomeView.swift in Sources */,
 				ADBE71522A3549D900BE345C /* ContentView.swift in Sources */,
 				ADBE71502A3549D900BE345C /* KobbleBackendTestApp.swift in Sources */,
