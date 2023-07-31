@@ -30,6 +30,9 @@
 		ADBE71872A3E94C600BE345C /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = ADBE71862A3E94C600BE345C /* FirebaseFunctions */; };
 		ADBE71892A3E94C600BE345C /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = ADBE71882A3E94C600BE345C /* FirebaseFunctionsCombine-Community */; };
 		ADBE718B2A41606500BE345C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE718A2A41606500BE345C /* HomeView.swift */; };
+		ADDB98292A7732E0008C334B /* TestEscapeRoomData.csv in Resources */ = {isa = PBXBuildFile; fileRef = ADDB98282A7732E0008C334B /* TestEscapeRoomData.csv */; };
+		ADDB982E2A7733DE008C334B /* EscapeRoomTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB982D2A7733DE008C334B /* EscapeRoomTest.swift */; };
+		ADDB98302A773949008C334B /* GameViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB982F2A773949008C334B /* GameViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		ADBE716C2A3549DA00BE345C /* KobbleBackendTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobbleBackendTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ADBE71792A3E944000BE345C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADBE718A2A41606500BE345C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ADDB98282A7732E0008C334B /* TestEscapeRoomData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestEscapeRoomData.csv; sourceTree = "<group>"; };
+		ADDB982D2A7733DE008C334B /* EscapeRoomTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeRoomTest.swift; sourceTree = "<group>"; };
+		ADDB982F2A773949008C334B /* GameViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 		AD8DEDF72A63D05100D67167 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				ADDB98252A773297008C334B /* Resources */,
 				AD8DEE042A641B6000D67167 /* Constants */,
 				AD8DEDF82A63DA1C00D67167 /* Protocols */,
 			);
@@ -142,6 +149,7 @@
 		AD8DEDFF2A64139100D67167 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				ADDB98232A7731C0008C334B /* Games */,
 				AD8DEE002A64139900D67167 /* UserProfile */,
 			);
 			path = Features;
@@ -237,6 +245,47 @@
 				ADBE716C2A3549DA00BE345C /* KobbleBackendTestUITestsLaunchTests.swift */,
 			);
 			path = KobbleBackendTestUITests;
+			sourceTree = "<group>";
+		};
+		ADDB98232A7731C0008C334B /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB98242A7731D2008C334B /* EscapeRoom */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		ADDB98242A7731D2008C334B /* EscapeRoom */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB982D2A7733DE008C334B /* EscapeRoomTest.swift */,
+				ADDB982F2A773949008C334B /* GameViewTest.swift */,
+			);
+			path = EscapeRoom;
+			sourceTree = "<group>";
+		};
+		ADDB98252A773297008C334B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB98262A7732A5008C334B /* GameData */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADDB98262A7732A5008C334B /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB98272A7732B0008C334B /* EscapeRoom */,
+			);
+			path = GameData;
+			sourceTree = "<group>";
+		};
+		ADDB98272A7732B0008C334B /* EscapeRoom */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB98282A7732E0008C334B /* TestEscapeRoomData.csv */,
+			);
+			path = EscapeRoom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDB98292A7732E0008C334B /* TestEscapeRoomData.csv in Resources */,
 				ADBE71572A3549DA00BE345C /* Preview Assets.xcassets in Resources */,
 				ADBE71542A3549DA00BE345C /* Assets.xcassets in Resources */,
 				ADBE717A2A3E944000BE345C /* GoogleService-Info.plist in Resources */,
@@ -386,8 +436,10 @@
 				AD8DEDBD2A5BEB1E00D67167 /* PersistenceTestView.swift in Sources */,
 				ADBE718B2A41606500BE345C /* HomeView.swift in Sources */,
 				AD8DEE032A6413C800D67167 /* UserProfile.swift in Sources */,
+				ADDB982E2A7733DE008C334B /* EscapeRoomTest.swift in Sources */,
 				AD8DEDFE2A63DB8100D67167 /* Shareable.swift in Sources */,
 				ADBE71522A3549D900BE345C /* ContentView.swift in Sources */,
+				ADDB98302A773949008C334B /* GameViewTest.swift in Sources */,
 				AD8DEDFC2A63DB4E00D67167 /* Interactable.swift in Sources */,
 				AD8DEDFA2A63DB1900D67167 /* Ownable.swift in Sources */,
 				AD8DEE062A641B8E00D67167 /* Genders.swift in Sources */,
