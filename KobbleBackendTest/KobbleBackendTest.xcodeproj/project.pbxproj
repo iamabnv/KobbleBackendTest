@@ -146,11 +146,11 @@
 			path = User;
 			sourceTree = "<group>";
 		};
-		AD62C1AA2A897E57000C4FED /* New Group */ = {
+		AD62C1AA2A897E57000C4FED /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		AD8DEDBA2A52529900D67167 /* Old_Stuff */ = {
@@ -194,7 +194,7 @@
 		AD8DEDFF2A64139100D67167 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				AD62C1AA2A897E57000C4FED /* New Group */,
+				AD62C1AA2A897E57000C4FED /* SignUp */,
 			);
 			path = Features;
 			sourceTree = "<group>";
