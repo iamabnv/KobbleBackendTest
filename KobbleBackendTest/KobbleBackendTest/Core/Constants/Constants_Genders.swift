@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Gender: String, Codable, Hashable {
+enum ConstGender: String, Codable, Hashable {
     case male = "Male"
     case female = "Female"
     case nonBinary = "Non-binary"
@@ -18,7 +18,7 @@ enum Gender: String, Codable, Hashable {
     case bigender = "Bigender"
     // Add more genders as needed
     
-    static var allGenders: [Gender] {
+    static var allGenders: [ConstGender] {
         return [
             .male,
             .female,

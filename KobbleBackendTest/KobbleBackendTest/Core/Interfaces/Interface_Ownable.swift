@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol Ownable {
+protocol IOwnable {
     var ownerID: String { get set }
 }

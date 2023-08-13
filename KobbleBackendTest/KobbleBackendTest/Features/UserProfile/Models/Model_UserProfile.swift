@@ -8,10 +8,10 @@
 import Foundation
 import FirebaseFirestoreSwift
 
-struct UserProfileStruct: Codable {
+struct MUserProfile_Primary: Codable {
     @DocumentID var id: String?
     var name: String
     var email: String?
     var phoneNumber: String?
-    var gender: Gender
+    var gender: ConstGender
 }
