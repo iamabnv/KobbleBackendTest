@@ -8,7 +8,7 @@
 import Foundation
 import FirebaseFirestoreSwift
 
-struct MUserProfile_Primary: Codable {
+struct MUserProfile_Shared: Codable {
     @DocumentID var id: String?
     var name: String
     var email: String?
