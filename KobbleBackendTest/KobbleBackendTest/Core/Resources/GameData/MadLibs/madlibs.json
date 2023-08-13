@@ -1,0 +1,104 @@
+{
+    "theme": "Vacation and Hotel",
+    "story": [
+        {
+            "text": "Once upon a time, ",
+            "blank": {
+                "type": "Name"
+            }
+        },
+        {
+            "text": " and ",
+            "blank": {
+                "type": "Name"
+            }
+        },
+        {
+            "text": " decided to take a vacation. They chose a ",
+            "blank": {
+                "type": "Adjective"
+            }
+        },
+        {
+            "text": " destination known for its ",
+            "blank": {
+                "type": "Noun"
+            }
+        },
+        {
+            "text": ". After a long journey, they finally arrived at their ",
+            "blank": {
+                "type": "Adjective"
+            }
+        },
+        {
+            "text": " hotel named '",
+            "blank": {
+                "type": "Hotel Name"
+            }
+        },
+        {
+            "text": "'. Their room was on the ",
+            "blank": {
+                "type": "Number"
+            }
+        },
+        {
+            "text": " floor with a view of the ",
+            "blank": {
+                "type": "Noun"
+            }
+        },
+        {
+            "text": ". The first thing they did was ",
+            "blank": {
+                "type": "Verb"
+            }
+        },
+        {
+            "text": " in the ",
+            "blank": {
+                "type": "Noun"
+            }
+        },
+        {
+            "text": ". Later, they had a ",
+            "blank": {
+                "type": "Adjective"
+            }
+        },
+        {
+            "text": " dinner at the hotel's ",
+            "blank": {
+                "type": "Adjective"
+            }
+        },
+        {
+            "text": " restaurant. The next day, they went to the ",
+            "blank": {
+                "type": "Adjective"
+            }
+        },
+        {
+            "text": " beach and saw a ",
+            "blank": {
+                "type": "Animal"
+            }
+        },
+        {
+            "text": ". That night, they attended a ",
+            "blank": {
+                "type": "Adjective"
+            }
+        },
+        {
+            "text": " party at the hotel. It was a ",
+            "blank": {
+                "type": "Adjective"
+            }
+        },
+        {
+            "text": " vacation they would never forget."
+        }
+    ]
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD8D0A082A788DFB00138C3F /* madlibs.json in Resources */ = {isa = PBXBuildFile; fileRef = AD8D0A072A788DFB00138C3F /* madlibs.json */; };
+		AD8D0A0A2A788E9600138C3F /* TestMadLibsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D0A092A788E9600138C3F /* TestMadLibsView.swift */; };
 		AD8DEDBD2A5BEB1E00D67167 /* PersistenceTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDBC2A5BEB1E00D67167 /* PersistenceTestView.swift */; };
 		AD8DEDFA2A63DB1900D67167 /* Ownable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDF92A63DB1900D67167 /* Ownable.swift */; };
 		AD8DEDFC2A63DB4E00D67167 /* Interactable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDFB2A63DB4E00D67167 /* Interactable.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD8D0A072A788DFB00138C3F /* madlibs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = madlibs.json; sourceTree = "<group>"; };
+		AD8D0A092A788E9600138C3F /* TestMadLibsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMadLibsView.swift; sourceTree = "<group>"; };
 		AD8DEDBC2A5BEB1E00D67167 /* PersistenceTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTestView.swift; sourceTree = "<group>"; };
 		AD8DEDF92A63DB1900D67167 /* Ownable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ownable.swift; sourceTree = "<group>"; };
 		AD8DEDFB2A63DB4E00D67167 /* Interactable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactable.swift; sourceTree = "<group>"; };
@@ -103,6 +107,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD8D0A022A788DC700138C3F /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				AD8D0A032A788DCE00138C3F /* MadLibs */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		AD8D0A032A788DCE00138C3F /* MadLibs */ = {
+			isa = PBXGroup;
+			children = (
+				AD8D0A092A788E9600138C3F /* TestMadLibsView.swift */,
+			);
+			path = MadLibs;
+			sourceTree = "<group>";
+		};
+		AD8D0A042A788DD600138C3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD8D0A052A788DDD00138C3F /* GameData */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD8D0A052A788DDD00138C3F /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				AD8D0A062A788DE300138C3F /* MadLibs */,
+			);
+			path = GameData;
+			sourceTree = "<group>";
+		};
+		AD8D0A062A788DE300138C3F /* MadLibs */ = {
+			isa = PBXGroup;
+			children = (
+				AD8D0A072A788DFB00138C3F /* madlibs.json */,
+			);
+			path = MadLibs;
+			sourceTree = "<group>";
+		};
 		AD8DEDBA2A52529900D67167 /* Old_Stuff */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +167,7 @@
 		AD8DEDF72A63D05100D67167 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				AD8D0A042A788DD600138C3F /* Resources */,
 				AD8DEE042A641B6000D67167 /* Constants */,
 				AD8DEDF82A63DA1C00D67167 /* Protocols */,
 			);
@@ -142,6 +187,7 @@
 		AD8DEDFF2A64139100D67167 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				AD8D0A022A788DC700138C3F /* Games */,
 				AD8DEE002A64139900D67167 /* UserProfile */,
 			);
 			path = Features;
@@ -356,6 +402,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8D0A082A788DFB00138C3F /* madlibs.json in Resources */,
 				ADBE71572A3549DA00BE345C /* Preview Assets.xcassets in Resources */,
 				ADBE71542A3549DA00BE345C /* Assets.xcassets in Resources */,
 				ADBE717A2A3E944000BE345C /* GoogleService-Info.plist in Resources */,
@@ -386,6 +433,7 @@
 				AD8DEDBD2A5BEB1E00D67167 /* PersistenceTestView.swift in Sources */,
 				ADBE718B2A41606500BE345C /* HomeView.swift in Sources */,
 				AD8DEE032A6413C800D67167 /* UserProfile.swift in Sources */,
+				AD8D0A0A2A788E9600138C3F /* TestMadLibsView.swift in Sources */,
 				AD8DEDFE2A63DB8100D67167 /* Shareable.swift in Sources */,
 				ADBE71522A3549D900BE345C /* ContentView.swift in Sources */,
 				AD8DEDFC2A63DB4E00D67167 /* Interactable.swift in Sources */,
