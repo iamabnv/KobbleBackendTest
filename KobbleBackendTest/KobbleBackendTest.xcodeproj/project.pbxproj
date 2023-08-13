@@ -187,16 +187,8 @@
 		AD8DEDFF2A64139100D67167 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				AD8DEE002A64139900D67167 /* UserProfile */,
 			);
 			path = Features;
-			sourceTree = "<group>";
-		};
-		AD8DEE002A64139900D67167 /* UserProfile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UserProfile;
 			sourceTree = "<group>";
 		};
 		AD8DEE012A6413A500D67167 /* Models */ = {
