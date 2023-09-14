@@ -1,0 +1,1243 @@
+{
+    "questionsets": [
+        {
+            "setid": 0,
+            "questions": [
+                {
+                    "id": 0,
+                    "text": "You're at a party and someone spills a drink on you. Your first reaction is to:",
+                    "choices": [
+                        {
+                            "text": "Laugh it off and join the dance floor with your new 'design'.",
+                            "traits": {"Adventurousness": 2, "Charisma": 1}
+                        },
+                        {
+                            "text": "Analyze whether it was an accident or intentional.",
+                            "traits": {"Analytical": 2, "Introspection": 1}
+                        },
+                        {
+                            "text": "Comfort the person, saying it's okay even if you're upset.",
+                            "traits": {"Empathy": 2, "Altruism": 1}
+                        },
+                        {
+                            "text": "Assertively ask the person to be more careful next time.",
+                            "traits": {"Assertiveness": 2, "Discipline": 1}
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "You find a wallet on the street. Inside, there's a significant amount of money and an ID. You:",
+                    "choices": [
+                        {
+                            "text": "Immediately think of all the fun things you could do with the money.",
+                            "traits": {"Spontaneity": 2, "Creativity": 1}
+                        },
+                        {
+                            "text": "Plan a systematic approach to find the owner using the ID.",
+                            "traits": {"Pragmatism": 2, "Discipline": 1}
+                        },
+                        {
+                            "text": "Feel deeply for the person who lost it and go out of your way to return it.",
+                            "traits": {"Empathy": 2, "Altruism": 1}
+                        },
+                        {
+                            "text": "Dream about a scenario where returning the wallet leads to a grand adventure.",
+                            "traits": {"Adventurousness": 2, "Creativity": 1}
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Your friend challenges you to a game you've never played before. You:",
+                    "choices": [
+                        {
+                            "text": "Dive right in, excited about the unknown.",
+                            "traits": {"Adventurousness": 2, "Spontaneity": 1}
+                        },
+                        {
+                            "text": "Take a moment to read the rules and strategize.",
+                            "traits": {"Analytical": 2, "Discipline": 1}
+                        },
+                        {
+                            "text": "Imagine creative ways to make the game more fun for everyone.",
+                            "traits": {"Creativity": 2, "Charisma": 1}
+                        },
+                        {
+                            "text": "Lead the group, ensuring everyone understands and enjoys.",
+                            "traits": {"Assertiveness": 2, "Empathy": 1}
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "You're given a chance to lead a project at work. Your approach is to:",
+                    "choices": [
+                        {
+                            "text": "Envision a grand, innovative outcome and inspire the team.",
+                            "traits": {"Ambition": 2, "Creativity": 1}
+                        },
+                        {
+                            "text": "Set clear guidelines, timelines, and ensure everyone sticks to them.",
+                            "traits": {"Discipline": 2, "Pragmatism": 1}
+                        },
+                        {
+                            "text": "Ensure everyone's views are heard and they feel valued.",
+                            "traits": {"Empathy": 2, "Charisma": 1}
+                        },
+                        {
+                            "text": "Analyze potential pitfalls and prepare for them.",
+                            "traits": {"Analytical": 2, "Introspection": 1}
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "You stumble upon a mysterious old book in a library. The first thing you do is:",
+                    "choices": [
+                        {
+                            "text": "Imagine the adventures the book might take you on.",
+                            "traits": {"Adventurousness": 2, "Creativity": 1}
+                        },
+                        {
+                            "text": "Dive deep into its pages, lost in thought and reflection.",
+                            "traits": {"Introspection": 2, "Analytical": 1}
+                        },
+                        {
+                            "text": "Think of how you can use the book to help or teach others.",
+                            "traits": {"Altruism": 2, "Empathy": 1}
+                        },
+                        {
+                            "text": "Plan a reading schedule to finish it alongside your other commitments.",
+                            "traits": {"Discipline": 2, "Pragmatism": 1}
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "You're at a talent show. Your act would most likely be:",
+                    "choices": [
+                        {
+                            "text": "A spontaneous comedy skit you thought of on the spot.",
+                            "traits": {"Spontaneity": 2, "Charisma": 1}
+                        },
+                        {
+                            "text": "A well-rehearsed magic trick with a twist.",
+                            "traits": {"Discipline": 2, "Creativity": 1}
+                        },
+                        {
+                            "text": "A heartfelt song or story that connects with the audience.",
+                            "traits": {"Empathy": 2, "Charisma": 1}
+                        },
+                        {
+                            "text": "A thought-provoking act that challenges the audience's perceptions.",
+                            "traits": {"Introspection": 2, "Analytical": 1}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setid": 1,
+            "questions": [
+                {
+                    "id": 0,
+                    "text": "You're at a comedy club, and the comedian picks on you. Your reaction is to:",
+                    "theme": "funny",
+                    "choices": [
+                        {
+                            "text": "Join in on the joke and laugh at yourself.",
+                            "traits": { "Adventurousness": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "Analyze the joke's structure and think of a witty comeback.",
+                            "traits": { "Analytical": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "Feel for the comedian and play along, ensuring the act goes smoothly.",
+                            "traits": { "Empathy": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Assertively stand up and challenge the comedian to a joke-off.",
+                            "traits": { "Assertiveness": 2, "Ambition": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "You accidentally walk into the wrong restroom. You:",
+                    "theme": "embarrassing",
+                    "choices": [
+                        {
+                            "text": "Make a grand exit, announcing your mistake to everyone.",
+                            "traits": { "Spontaneity": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "Quickly analyze the quickest exit strategy without being noticed.",
+                            "traits": { "Analytical": 2, "Pragmatism": 1 }
+                        },
+                        {
+                            "text": "Feel deeply embarrassed but also empathize with others who've done the same.",
+                            "traits": { "Empathy": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "Assertively correct your mistake and ensure signs are more visible for others.",
+                            "traits": { "Assertiveness": 2, "Discipline": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "You find a pair of shoes that let you walk on walls. Your first move is to:",
+                    "theme": "quirky",
+                    "choices": [
+                        {
+                            "text": "Climb the nearest building for a new perspective on things.",
+                            "traits": { "Adventurousness": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Analyze the physics behind the shoes and how they work.",
+                            "traits": { "Analytical": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "Show them off to friends and let them have a turn.",
+                            "traits": { "Altruism": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "Plan a surprise performance at a local park, walking on walls.",
+                            "traits": { "Creativity": 2, "Charisma": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "You're mistakenly sent to a conference for 'Underwater Basket Weaving'. You:",
+                    "theme": "unexpected",
+                    "choices": [
+                        {
+                            "text": "Dive right in, excited to learn something new.",
+                            "traits": { "Adventurousness": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "Analyze the techniques and consider its application in other fields.",
+                            "traits": { "Analytical": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "Connect with attendees, understanding their passion for the craft.",
+                            "traits": { "Empathy": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "Assertively take the stage and share your own unrelated expertise.",
+                            "traits": { "Assertiveness": 2, "Discipline": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "You discover that your pet can suddenly talk. It says:",
+                    "theme": "fantasy",
+                    "choices": [
+                        {
+                            "text": "'Let's go on an adventure!'",
+                            "traits": { "Adventurousness": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "'Have you ever wondered about the meaning of life?'",
+                            "traits": { "Introspection": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "'I've always been here for you, and I always will be.'",
+                            "traits": { "Empathy": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "'I've got some feedback on how you could run this household better.'",
+                            "traits": { "Assertiveness": 2, "Pragmatism": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "You're given a magic wand that can do one thing. You choose to:",
+                    "theme": "magical",
+                    "choices": [
+                        {
+                            "text": "Create spontaneous dance parties wherever you go.",
+                            "traits": { "Spontaneity": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "Understand the inner workings of everything you touch.",
+                            "traits": { "Analytical": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "Spread happiness and understanding to everyone around you.",
+                            "traits": { "Empathy": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Ensure that all your plans and projects are executed perfectly.",
+                            "traits": { "Discipline": 2, "Pragmatism": 1 }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setid": 2,
+            "questions": [
+                {
+                    "id": 0,
+                    "text": "You're given a time machine for a day. Your first destination is:",
+                    "choices": [
+                        {
+                            "text": "The future, to see how technology has evolved.",
+                            "traits": { "Adventurousness": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "The past, to relive a cherished memory.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "A historical event, to witness it firsthand.",
+                            "traits": { "Adventurousness": 2, "Pragmatism": 1 }
+                        },
+                        {
+                            "text": "Somewhere fun and spontaneous, like a dinosaur era party!",
+                            "traits": { "Spontaneity": 2, "Creativity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "You find a genie's lamp. Your first wish is:",
+                    "choices": [
+                        {
+                            "text": "Infinite wisdom.",
+                            "traits": { "Analytical": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "World peace.",
+                            "traits": { "Altruism": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "To be the most famous person in the world.",
+                            "traits": { "Ambition": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "A lifetime supply of pizza!",
+                            "traits": { "Spontaneity": 2, "Adventurousness": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "You're cast in a movie. Your preferred role is:",
+                    "choices": [
+                        {
+                            "text": "The strategic mastermind with a plan for everything.",
+                            "traits": { "Analytical": 2, "Discipline": 1 }
+                        },
+                        {
+                            "text": "The empathetic leader who brings everyone together.",
+                            "traits": { "Empathy": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "The unpredictable wildcard who keeps everyone on their toes.",
+                            "traits": { "Spontaneity": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "The ambitious antagonist with a compelling backstory.",
+                            "traits": { "Ambition": 2, "Introspection": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "You're at a karaoke bar. Your song choice is:",
+                    "choices": [
+                        {
+                            "text": "A classic that everyone can sing along to.",
+                            "traits": { "Charisma": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "A challenging song to showcase your vocal prowess.",
+                            "traits": { "Ambition": 2, "Assertiveness": 1 }
+                        },
+                        {
+                            "text": "A deep, emotional ballad that tells a story.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "A spontaneous mashup of your favorite songs.",
+                            "traits": { "Spontaneity": 2, "Creativity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "You're given the ability to master any skill instantly. You choose:",
+                    "choices": [
+                        {
+                            "text": "A musical instrument, to express your creativity.",
+                            "traits": { "Creativity": 2, "Discipline": 1 }
+                        },
+                        {
+                            "text": "A martial art, to discipline your mind and body.",
+                            "traits": { "Discipline": 2, "Assertiveness": 1 }
+                        },
+                        {
+                            "text": "A new language, to connect with more people.",
+                            "traits": { "Empathy": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Parkour, because why not?",
+                            "traits": { "Adventurousness": 2, "Spontaneity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "You're writing a book. The genre is:",
+                    "choices": [
+                        {
+                            "text": "A mystery, with intricate plots and twists.",
+                            "traits": { "Analytical": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "A romance, exploring deep human connections.",
+                            "traits": { "Empathy": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "A self-help guide, using your experiences to help others.",
+                            "traits": { "Altruism": 2, "Pragmatism": 1 }
+                        },
+                        {
+                            "text": "A fantasy, set in a world of your own creation.",
+                            "traits": { "Creativity": 2, "Adventurousness": 1 }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setid": 3,
+            "questions": [
+                {
+                    "id": 0,
+                    "text": "You're stranded on a deserted island. Your first move is to:",
+                    "choices": [
+                        {
+                            "text": "Build a raft and set out to explore nearby islands.",
+                            "traits": { "Adventurousness": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Sit down, reflect on life, and enjoy the solitude.",
+                            "traits": { "Introspection": 2, "Pragmatism": 1 }
+                        },
+                        {
+                            "text": "Organize a signal for rescue, ensuring it's visible from the sky.",
+                            "traits": { "Discipline": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "Throw a solo beach party, because why not?",
+                            "traits": { "Creativity": 2, "Charisma": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "You find a door in your house that you've never seen before. You:",
+                    "choices": [
+                        {
+                            "text": "Immediately open it, eager to see what's behind.",
+                            "traits": { "Adventurousness": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "Research the house's history and blueprints first.",
+                            "traits": { "Analytical": 2, "Pragmatism": 1 }
+                        },
+                        {
+                            "text": "Imagine a fantastical world behind it and write a story.",
+                            "traits": { "Creativity": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "Invite friends over for a dramatic door-opening ceremony.",
+                            "traits": { "Charisma": 2, "Spontaneity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "You're given the power to communicate with animals for a day. You:",
+                    "choices": [
+                        {
+                            "text": "Hold a neighborhood animal council meeting.",
+                            "traits": { "Charisma": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Spend the day introspecting with a wise old turtle.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "Plan a coordinated dance routine with a group of squirrels.",
+                            "traits": { "Creativity": 2, "Discipline": 1 }
+                        },
+                        {
+                            "text": "Negotiate peace treaties between cats and dogs.",
+                            "traits": { "Assertiveness": 2, "Empathy": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "You stumble upon a potion that can give you a superpower. You choose:",
+                    "choices": [
+                        {
+                            "text": "Time travel, to witness history and the future.",
+                            "traits": { "Adventurousness": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "Mind reading, to better understand those around you.",
+                            "traits": { "Empathy": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "Invisibility, to observe without being seen.",
+                            "traits": { "Pragmatism": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Flight, because the sky's the limit!",
+                            "traits": { "Ambition": 2, "Creativity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "You're at a carnival. Your first stop is:",
+                    "choices": [
+                        {
+                            "text": "The roller coaster, for a thrilling adventure.",
+                            "traits": { "Adventurousness": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "The fortune teller, to gain insights about your future.",
+                            "traits": { "Introspection": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "The game stalls, to strategize and win the biggest prize.",
+                            "traits": { "Analytical": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "The stage, to showcase your hidden talent.",
+                            "traits": { "Charisma": 2, "Creativity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "You're given a blank canvas and paints. You decide to:",
+                    "choices": [
+                        {
+                            "text": "Paint an abstract representation of your emotions.",
+                            "traits": { "Creativity": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "Recreate a famous painting, with a personal twist.",
+                            "traits": { "Discipline": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "Invite friends and make it a collaborative art piece.",
+                            "traits": { "Charisma": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Paint a vision of the future as you see it.",
+                            "traits": { "Ambition": 2, "Adventurousness": 1 }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setid": 4,
+            "questions": [
+                {
+                    "id": 0,
+                    "text": "You discover a hidden room in your house. Inside, you find:",
+                    "choices": [
+                        {
+                            "text": "A map leading to a buried treasure.",
+                            "traits": { "Adventurousness": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "A diary from a previous homeowner, detailing their life.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "A workshop filled with tools and unfinished inventions.",
+                            "traits": { "Creativity": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "A stage, complete with costumes and props.",
+                            "traits": { "Charisma": 2, "Spontaneity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "You're given the opportunity to live in a fictional universe for a year. You choose:",
+                    "choices": [
+                        {
+                            "text": "A futuristic city with advanced technology.",
+                            "traits": { "Adventurousness": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "A magical realm with creatures and spells.",
+                            "traits": { "Creativity": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "A kingdom where you're the benevolent ruler.",
+                            "traits": { "Charisma": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "A challenging environment where survival is key.",
+                            "traits": { "Discipline": 2, "Pragmatism": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "At a party, you're most likely to be found:",
+                    "choices": [
+                        {
+                            "text": "On the dance floor, leading a conga line.",
+                            "traits": { "Spontaneity": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "In a corner, having a deep conversation with someone.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "Organizing party games and ensuring everyone's having fun.",
+                            "traits": { "Assertiveness": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Observing the dynamics and interactions, perhaps making mental notes.",
+                            "traits": { "Analytical": 2, "Pragmatism": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "You find a mysterious book that allows you to master any skill. You choose:",
+                    "choices": [
+                        {
+                            "text": "The art of persuasion.",
+                            "traits": { "Charisma": 2, "Assertiveness": 1 }
+                        },
+                        {
+                            "text": "The ability to understand and speak every language.",
+                            "traits": { "Empathy": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "The knowledge of the universe and its workings.",
+                            "traits": { "Analytical": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "The craft of creating the most delicious dishes.",
+                            "traits": { "Creativity": 2, "Discipline": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "You're given a chance to perform on a talent show. Your act is:",
+                    "choices": [
+                        {
+                            "text": "A daring acrobatic performance.",
+                            "traits": { "Adventurousness": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "A heartfelt original song or poem.",
+                            "traits": { "Creativity": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "A magic act with mind-boggling tricks.",
+                            "traits": { "Analytical": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "A motivational speech to inspire others.",
+                            "traits": { "Assertiveness": 2, "Altruism": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "You're designing your dream home. The most important feature is:",
+                    "choices": [
+                        {
+                            "text": "A vast library filled with books from every era.",
+                            "traits": { "Introspection": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "A state-of-the-art kitchen for culinary experiments.",
+                            "traits": { "Creativity": 2, "Discipline": 1 }
+                        },
+                        {
+                            "text": "A grand hall for hosting parties and events.",
+                            "traits": { "Charisma": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "A serene garden for meditation and reflection.",
+                            "traits": { "Pragmatism": 2, "Empathy": 1 }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setid": 5,
+            "questions": [
+                {
+                    "id": 0,
+                    "text": "If you were a superhero, your power would be:",
+                    "choices": [
+                        {
+                            "text": "The ability to instantly teleport to any music concert.",
+                            "traits": { "Adventurousness": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Reading minds, but only when they think about food.",
+                            "traits": { "Empathy": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "Turning invisible, but only while dancing.",
+                            "traits": { "Charisma": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Flying, but only 2 feet above the ground.",
+                            "traits": { "Pragmatism": 2, "Analytical": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "You're in a karaoke bar. You choose to sing:",
+                    "choices": [
+                        {
+                            "text": "A dramatic Bollywood number with all the dance moves.",
+                            "traits": { "Charisma": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "The theme song of a popular 90s cartoon.",
+                            "traits": { "Creativity": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "A deep, soulful ballad while shedding a single tear.",
+                            "traits": { "Empathy": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "A rap song, but you replace every third word with 'potato'.",
+                            "traits": { "Analytical": 2, "Creativity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "If you could have dinner with any fictional character, it would be:",
+                    "choices": [
+                        {
+                            "text": "Sherlock Holmes, to challenge him to a game of wits.",
+                            "traits": { "Analytical": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "Winnie the Pooh, for a heartwarming evening of honey and wisdom.",
+                            "traits": { "Empathy": 2, "Introspection": 1 }
+                        },
+                        {
+                            "text": "Voldemort, to discuss the importance of nose moisturizers.",
+                            "traits": { "Charisma": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "Iron Man, to pitch some innovative gadget ideas.",
+                            "traits": { "Ambition": 2, "Pragmatism": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Your spirit animal would be:",
+                    "choices": [
+                        {
+                            "text": "A cat wearing sunglasses, sipping a tropical drink.",
+                            "traits": { "Spontaneity": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "A philosophical owl, pondering the mysteries of the universe.",
+                            "traits": { "Introspection": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "A dancing peacock, showcasing its vibrant feathers.",
+                            "traits": { "Creativity": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "A diligent ant, always planning and organizing.",
+                            "traits": { "Discipline": 2, "Pragmatism": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "You're in a meme-making competition. Your meme is about:",
+                    "choices": [
+                        {
+                            "text": "Aliens visiting Earth and being confused by human behavior.",
+                            "traits": { "Creativity": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "A philosophical potato pondering its existence.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "A cat plotting world domination.",
+                            "traits": { "Ambition": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "A penguin attending a summer beach party.",
+                            "traits": { "Spontaneity": 2, "Charisma": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "If you could time travel, you'd visit:",
+                    "choices": [
+                        {
+                            "text": "Ancient India, to crash a royal party.",
+                            "traits": { "Adventurousness": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "The future, to see if flying cars are finally a thing.",
+                            "traits": { "Adventurousness": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "The Renaissance, to paint a quirky portrait with Leonardo da Vinci.",
+                            "traits": { "Creativity": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "The 1960s, to attend a Woodstock concert.",
+                            "traits": { "Spontaneity": 2, "Empathy": 1 }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setid": 6,
+            "questions": [
+                {
+                    "id": 0,
+                    "text": "If you were to start a YouTube channel, it would be about:",
+                    "choices": [
+                        {
+                            "text": "Extreme ironing - ironing clothes in the most unexpected places.",
+                            "traits": { "Adventurousness": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "Meditating with animals - finding inner peace alongside curious critters.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "Cooking with fictional ingredients - unicorn cupcakes, anyone?",
+                            "traits": { "Creativity": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Analyzing the aerodynamics of flying toasters.",
+                            "traits": { "Analytical": 2, "Adventurousness": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "Your ideal vacation would involve:",
+                    "choices": [
+                        {
+                            "text": "A treasure hunt in the Amazon rainforest.",
+                            "traits": { "Adventurousness": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "Attending a silent disco in an underwater cave.",
+                            "traits": { "Spontaneity": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "A retreat where you communicate only using interpretive dance.",
+                            "traits": { "Empathy": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "A workshop on building sandcastles with architectural precision.",
+                            "traits": { "Discipline": 2, "Analytical": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "If you could have a fictional job, it would be:",
+                    "choices": [
+                        {
+                            "text": "A dragon trainer.",
+                            "traits": { "Adventurousness": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "A wizard's assistant, specializing in potion quality control.",
+                            "traits": { "Adventurousness": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "A professional dream interpreter in a land of talking animals.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "A space DJ, playing tunes for aliens across the galaxy.",
+                            "traits": { "Spontaneity": 2, "Creativity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Your dream pet would be:",
+                    "choices": [
+                        {
+                            "text": "A phoenix that delivers your mail.",
+                            "traits": { "Adventurousness": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "A shape-shifting creature that turns into whatever you're in the mood to cuddle.",
+                            "traits": { "Empathy": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "A talking fish that offers daily life advice.",
+                            "traits": { "Introspection": 2, "Pragmatism": 1 }
+                        },
+                        {
+                            "text": "A mini dragon that helps you cook by breathing fire.",
+                            "traits": { "Spontaneity": 2, "Analytical": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "At a magical talent show, you'd showcase your ability to:",
+                    "choices": [
+                        {
+                            "text": "Turn any object into chocolate.",
+                            "traits": { "Creativity": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Teleport to any concert happening anywhere in the world.",
+                            "traits": { "Adventurousness": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "Read the past of any object you touch.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "Instantly grow and harvest any plant.",
+                            "traits": { "Pragmatism": 2, "Discipline": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Your ideal magical artifact would be:",
+                    "choices": [
+                        {
+                            "text": "A mirror that shows the most fun event happening nearby.",
+                            "traits": { "Spontaneity": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "A diary that writes down your dreams and decodes their meanings.",
+                            "traits": { "Introspection": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "A compass that points to the nearest person in need of help.",
+                            "traits": { "Altruism": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "A watch that slows down time when you're enjoying a moment.",
+                            "traits": { "Pragmatism": 2, "Analytical": 1 }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setid": 7,
+            "questions": [
+                {
+                    "id": 0,
+                    "text": "At a garden party, you're most likely to:",
+                    "choices": [
+                        {
+                            "text": "Climb a tree to get a bird's-eye view of the festivities.",
+                            "traits": { "Adventurousness": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Engage in a deep conversation about the life of plants.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "Organize a spontaneous game of hide and seek.",
+                            "traits": { "Charisma": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "Help the host with arrangements, ensuring everything is perfect.",
+                            "traits": { "Discipline": 2, "Pragmatism": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "At a beach, you'd prefer to:",
+                    "choices": [
+                        {
+                            "text": "Build an intricate sandcastle with detailed designs.",
+                            "traits": { "Creativity": 2, "Discipline": 1 }
+                        },
+                        {
+                            "text": "Dive deep and explore the underwater world.",
+                            "traits": { "Adventurousness": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "Meditate to the sound of waves, finding inner peace.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "Organize a beach volleyball match with strangers.",
+                            "traits": { "Charisma": 2, "Ambition": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "At a library, you'd be found:",
+                    "choices": [
+                        {
+                            "text": "Reading a mystery novel, trying to solve it before the protagonist.",
+                            "traits": { "Analytical": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "Lost in a fantasy world, dreaming of magical realms.",
+                            "traits": { "Creativity": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Helping someone find a book they'd love.",
+                            "traits": { "Empathy": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Organizing a small book club discussion on the spot.",
+                            "traits": { "Charisma": 2, "Ambition": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "At a music festival, you'd be:",
+                    "choices": [
+                        {
+                            "text": "Front and center, dancing to every beat.",
+                            "traits": { "Spontaneity": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "At a quiet corner, enjoying the music and observing the crowd.",
+                            "traits": { "Introspection": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "Helping lost attendees find their friends.",
+                            "traits": { "Empathy": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Chatting with the bands, learning about their musical journey.",
+                            "traits": { "Adventurousness": 2, "Ambition": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "At a magic show, you'd want to:",
+                    "choices": [
+                        {
+                            "text": "Be the magician's assistant and be part of the act.",
+                            "traits": { "Adventurousness": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "Figure out how each trick is done.",
+                            "traits": { "Analytical": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "Enjoy the wonder and let yourself be amazed.",
+                            "traits": { "Spontaneity": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "Organize an impromptu magic trick contest among the audience.",
+                            "traits": { "Ambition": 2, "Creativity": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "At a DIY workshop, you'd be:",
+                    "choices": [
+                        {
+                            "text": "Creating something unique and out of the box.",
+                            "traits": { "Creativity": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Following the instructions to the letter, ensuring perfection.",
+                            "traits": { "Discipline": 2, "Pragmatism": 1 }
+                        },
+                        {
+                            "text": "Helping others with their projects, sharing ideas.",
+                            "traits": { "Empathy": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Leading a group, teaching them a new DIY trick you know.",
+                            "traits": { "Ambition": 2, "Charisma": 1 }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "setid": 8,
+            "questions": [
+                {
+                    "id": 0,
+                    "text": "At a costume party, you'd dress up as:",
+                    "choices": [
+                        {
+                            "text": "A disco ball, ensuring you're the center of attention.",
+                            "traits": { "Charisma": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "A famous philosopher, ready to discuss life's mysteries.",
+                            "traits": { "Introspection": 2, "Analytical": 1 }
+                        },
+                        {
+                            "text": "A chameleon, blending in and observing everyone.",
+                            "traits": { "Adventurousness": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "A walking calendar, reminding people of important dates.",
+                            "traits": { "Discipline": 2, "Pragmatism": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "At a potluck dinner, you'd bring:",
+                    "choices": [
+                        {
+                            "text": "A dish from a country you've never visited, just for the thrill.",
+                            "traits": { "Adventurousness": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "A classic dish, but with a quirky twist.",
+                            "traits": { "Creativity": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "A dish that caters to all dietary restrictions.",
+                            "traits": { "Empathy": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "A perfectly balanced three-course meal.",
+                            "traits": { "Discipline": 2, "Analytical": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "At a game night, you'd choose to play:",
+                    "choices": [
+                        {
+                            "text": "A strategy game where you can showcase your analytical skills.",
+                            "traits": { "Analytical": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "A role-playing game, immersing yourself in a character.",
+                            "traits": { "Creativity": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "A cooperative game, ensuring everyone has a good time.",
+                            "traits": { "Altruism": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "A fast-paced game, keeping everyone on their toes.",
+                            "traits": { "Spontaneity": 2, "Adventurousness": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "At a talent show, you'd showcase your ability to:",
+                    "choices": [
+                        {
+                            "text": "Juggle while reciting poetry.",
+                            "traits": { "Creativity": 2, "Charisma": 1 }
+                        },
+                        {
+                            "text": "Play a musical instrument you've invented.",
+                            "traits": { "Creativity": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "Mimic voices of famous personalities.",
+                            "traits": { "Empathy": 2, "Spontaneity": 1 }
+                        },
+                        {
+                            "text": "Solve complex math problems in record time.",
+                            "traits": { "Analytical": 2, "Discipline": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "At a picnic, you'd be found:",
+                    "choices": [
+                        {
+                            "text": "Setting up a mini treasure hunt for everyone.",
+                            "traits": { "Adventurousness": 2, "Ambition": 1 }
+                        },
+                        {
+                            "text": "Engaging in a deep conversation about cloud shapes.",
+                            "traits": { "Introspection": 2, "Creativity": 1 }
+                        },
+                        {
+                            "text": "Helping distribute food and ensuring everyone's comfortable.",
+                            "traits": { "Empathy": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Organizing a spontaneous game of frisbee.",
+                            "traits": { "Spontaneity": 2, "Charisma": 1 }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "At an art gallery, you'd be:",
+                    "choices": [
+                        {
+                            "text": "Sketching your own version of the artworks.",
+                            "traits": { "Creativity": 2, "Adventurousness": 1 }
+                        },
+                        {
+                            "text": "Contemplating the deeper meaning behind each piece.",
+                            "traits": { "Introspection": 2, "Empathy": 1 }
+                        },
+                        {
+                            "text": "Guiding others, sharing interesting facts about the art.",
+                            "traits": { "Ambition": 2, "Altruism": 1 }
+                        },
+                        {
+                            "text": "Trying to figure out the techniques used by the artists.",
+                            "traits": { "Adventurousness": 2, "Analytical": 1 }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

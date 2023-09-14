@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD29C9992A969A6400A85B3E /* Model_UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD29C9932A969A6400A85B3E /* Model_UserSignUp.swift */; };
+		AD29C99A2A969A6400A85B3E /* questionSets.json in Resources */ = {isa = PBXBuildFile; fileRef = AD29C9942A969A6400A85B3E /* questionSets.json */; };
+		AD29C99B2A969A6400A85B3E /* View_SignUpResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD29C9952A969A6400A85B3E /* View_SignUpResults.swift */; };
+		AD29C99C2A969A6400A85B3E /* View_SignUpRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD29C9962A969A6400A85B3E /* View_SignUpRoot.swift */; };
+		AD29C99D2A969A6400A85B3E /* Model_UserSignUpTraitQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD29C9972A969A6400A85B3E /* Model_UserSignUpTraitQuiz.swift */; };
+		AD29C99E2A969A6400A85B3E /* View_SignUp_TraitQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD29C9982A969A6400A85B3E /* View_SignUp_TraitQuiz.swift */; };
 		AD62C19F2A8966C0000C4FED /* View_Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62C19E2A8966C0000C4FED /* View_Root.swift */; };
 		AD62C1A32A89690E000C4FED /* Enum_NavigationDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62C1A22A89690E000C4FED /* Enum_NavigationDestinations.swift */; };
 		AD62C1A52A896B60000C4FED /* View_Tabbed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62C1A42A896B60000C4FED /* View_Tabbed.swift */; };
@@ -54,6 +60,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD29C9932A969A6400A85B3E /* Model_UserSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model_UserSignUp.swift; path = KobbleBackendTest/Features/SignUp/Model_UserSignUp.swift; sourceTree = SOURCE_ROOT; };
+		AD29C9942A969A6400A85B3E /* questionSets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = questionSets.json; path = KobbleBackendTest/Features/SignUp/questionSets.json; sourceTree = SOURCE_ROOT; };
+		AD29C9952A969A6400A85B3E /* View_SignUpResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View_SignUpResults.swift; path = KobbleBackendTest/Features/SignUp/View_SignUpResults.swift; sourceTree = SOURCE_ROOT; };
+		AD29C9962A969A6400A85B3E /* View_SignUpRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View_SignUpRoot.swift; path = KobbleBackendTest/Features/SignUp/View_SignUpRoot.swift; sourceTree = SOURCE_ROOT; };
+		AD29C9972A969A6400A85B3E /* Model_UserSignUpTraitQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model_UserSignUpTraitQuiz.swift; path = KobbleBackendTest/Features/SignUp/Model_UserSignUpTraitQuiz.swift; sourceTree = SOURCE_ROOT; };
+		AD29C9982A969A6400A85B3E /* View_SignUp_TraitQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View_SignUp_TraitQuiz.swift; path = KobbleBackendTest/Features/SignUp/View_SignUp_TraitQuiz.swift; sourceTree = SOURCE_ROOT; };
 		AD62C19E2A8966C0000C4FED /* View_Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Root.swift; sourceTree = "<group>"; };
 		AD62C1A22A89690E000C4FED /* Enum_NavigationDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum_NavigationDestinations.swift; sourceTree = "<group>"; };
 		AD62C1A42A896B60000C4FED /* View_Tabbed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Tabbed.swift; sourceTree = "<group>"; };
@@ -111,6 +123,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD29C9922A969A5100A85B3E /* SignUpNew */ = {
+			isa = PBXGroup;
+			children = (
+				AD29C9932A969A6400A85B3E /* Model_UserSignUp.swift */,
+				AD29C9972A969A6400A85B3E /* Model_UserSignUpTraitQuiz.swift */,
+				AD29C9942A969A6400A85B3E /* questionSets.json */,
+				AD29C9982A969A6400A85B3E /* View_SignUp_TraitQuiz.swift */,
+				AD29C9952A969A6400A85B3E /* View_SignUpResults.swift */,
+				AD29C9962A969A6400A85B3E /* View_SignUpRoot.swift */,
+			);
+			path = SignUpNew;
+			sourceTree = "<group>";
+		};
 		AD62C19D2A8966B1000C4FED /* Root */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,13 +169,6 @@
 				AD8DEE022A6413C800D67167 /* Model_UserProfile.swift */,
 			);
 			path = User;
-			sourceTree = "<group>";
-		};
-		AD62C1AA2A897E57000C4FED /* SignUp */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SignUp;
 			sourceTree = "<group>";
 		};
 		AD8DEDBA2A52529900D67167 /* Old_Stuff */ = {
@@ -194,7 +212,7 @@
 		AD8DEDFF2A64139100D67167 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				AD62C1AA2A897E57000C4FED /* SignUp */,
+				AD29C9922A969A5100A85B3E /* SignUpNew */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -400,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD29C99A2A969A6400A85B3E /* questionSets.json in Resources */,
 				ADBE71572A3549DA00BE345C /* Preview Assets.xcassets in Resources */,
 				ADBE71542A3549DA00BE345C /* Assets.xcassets in Resources */,
 				ADBE717A2A3E944000BE345C /* GoogleService-Info.plist in Resources */,
@@ -431,6 +450,7 @@
 				ADBE718B2A41606500BE345C /* HomeView.swift in Sources */,
 				AD8DEE032A6413C800D67167 /* Model_UserProfile.swift in Sources */,
 				AD8DEDFE2A63DB8100D67167 /* Interface_Shareable.swift in Sources */,
+				AD29C99C2A969A6400A85B3E /* View_SignUpRoot.swift in Sources */,
 				AD62C1A52A896B60000C4FED /* View_Tabbed.swift in Sources */,
 				AD62C19F2A8966C0000C4FED /* View_Root.swift in Sources */,
 				AD62C1A72A897210000C4FED /* Class_NavigationManager.swift in Sources */,
@@ -438,7 +458,11 @@
 				AD8DEDFC2A63DB4E00D67167 /* Interface_Interactable.swift in Sources */,
 				AD62C1A32A89690E000C4FED /* Enum_NavigationDestinations.swift in Sources */,
 				AD8DEDFA2A63DB1900D67167 /* Interface_Ownable.swift in Sources */,
+				AD29C99B2A969A6400A85B3E /* View_SignUpResults.swift in Sources */,
 				AD8DEE062A641B8E00D67167 /* Constants_Genders.swift in Sources */,
+				AD29C9992A969A6400A85B3E /* Model_UserSignUp.swift in Sources */,
+				AD29C99D2A969A6400A85B3E /* Model_UserSignUpTraitQuiz.swift in Sources */,
+				AD29C99E2A969A6400A85B3E /* View_SignUp_TraitQuiz.swift in Sources */,
 				ADBE71502A3549D900BE345C /* KobbleBackendTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
