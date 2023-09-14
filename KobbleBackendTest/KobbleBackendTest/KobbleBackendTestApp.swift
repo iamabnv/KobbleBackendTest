@@ -15,6 +15,10 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     }
 }
 
+class navclass: ObservableObject {
+    @Published var adc: [HomeViews] = []
+}
+
 @main
 struct KobbleBackendTestApp: App {
     
@@ -22,7 +26,7 @@ struct KobbleBackendTestApp: App {
     
     var body: some Scene {
         WindowGroup {
-            PersistenceTestView()
+            BedrockNavView()
         }
     }
 }

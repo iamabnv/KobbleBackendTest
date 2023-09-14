@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD61AD502A81A6CF007BAEF9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61AD4F2A81A6CF007BAEF9 /* HomeView.swift */; };
+		AD61AD532A81A7F3007BAEF9 /* BedrockNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61AD522A81A7F3007BAEF9 /* BedrockNavView.swift */; };
+		AD61AD562A81B4D3007BAEF9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61AD552A81B4D3007BAEF9 /* ProfileView.swift */; };
+		AD61AD592A81B547007BAEF9 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61AD582A81B547007BAEF9 /* MatchesView.swift */; };
+		AD61AD5E2A81CC4C007BAEF9 /* temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61AD5D2A81CC4C007BAEF9 /* temp.swift */; };
 		AD8DEDBD2A5BEB1E00D67167 /* PersistenceTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDBC2A5BEB1E00D67167 /* PersistenceTestView.swift */; };
 		AD8DEDFA2A63DB1900D67167 /* Ownable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDF92A63DB1900D67167 /* Ownable.swift */; };
 		AD8DEDFC2A63DB4E00D67167 /* Interactable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDFB2A63DB4E00D67167 /* Interactable.swift */; };
@@ -14,6 +19,7 @@
 		AD8DEE032A6413C800D67167 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEE022A6413C800D67167 /* UserProfile.swift */; };
 		AD8DEE062A641B8E00D67167 /* Genders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEE052A641B8E00D67167 /* Genders.swift */; };
 		AD8DEE092A641D4600D67167 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AD8DEE082A641D4600D67167 /* FirebaseAuth */; };
+		ADA82DE12A82D6870022A131 /* temp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA82DE02A82D6870022A131 /* temp2.swift */; };
 		ADBE71502A3549D900BE345C /* KobbleBackendTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE714F2A3549D900BE345C /* KobbleBackendTestApp.swift */; };
 		ADBE71522A3549D900BE345C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE71512A3549D900BE345C /* ContentView.swift */; };
 		ADBE71542A3549DA00BE345C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBE71532A3549DA00BE345C /* Assets.xcassets */; };
@@ -29,7 +35,7 @@
 		ADBE71852A3E94C600BE345C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADBE71842A3E94C600BE345C /* FirebaseFirestoreSwift */; };
 		ADBE71872A3E94C600BE345C /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = ADBE71862A3E94C600BE345C /* FirebaseFunctions */; };
 		ADBE71892A3E94C600BE345C /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = ADBE71882A3E94C600BE345C /* FirebaseFunctionsCombine-Community */; };
-		ADBE718B2A41606500BE345C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE718A2A41606500BE345C /* HomeView.swift */; };
+		ADBE718B2A41606500BE345C /* GameSessionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE718A2A41606500BE345C /* GameSessionTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,12 +56,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD61AD4F2A81A6CF007BAEF9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AD61AD522A81A7F3007BAEF9 /* BedrockNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedrockNavView.swift; sourceTree = "<group>"; };
+		AD61AD552A81B4D3007BAEF9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AD61AD582A81B547007BAEF9 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		AD61AD5D2A81CC4C007BAEF9 /* temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp.swift; sourceTree = "<group>"; };
 		AD8DEDBC2A5BEB1E00D67167 /* PersistenceTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTestView.swift; sourceTree = "<group>"; };
 		AD8DEDF92A63DB1900D67167 /* Ownable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ownable.swift; sourceTree = "<group>"; };
 		AD8DEDFB2A63DB4E00D67167 /* Interactable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactable.swift; sourceTree = "<group>"; };
 		AD8DEDFD2A63DB8100D67167 /* Shareable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shareable.swift; sourceTree = "<group>"; };
 		AD8DEE022A6413C800D67167 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		AD8DEE052A641B8E00D67167 /* Genders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genders.swift; sourceTree = "<group>"; };
+		ADA82DE02A82D6870022A131 /* temp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp2.swift; sourceTree = "<group>"; };
 		ADBE714C2A3549D900BE345C /* KobbleBackendTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KobbleBackendTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBE714F2A3549D900BE345C /* KobbleBackendTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobbleBackendTestApp.swift; sourceTree = "<group>"; };
 		ADBE71512A3549D900BE345C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,7 +79,7 @@
 		ADBE716A2A3549DA00BE345C /* KobbleBackendTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobbleBackendTestUITests.swift; sourceTree = "<group>"; };
 		ADBE716C2A3549DA00BE345C /* KobbleBackendTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobbleBackendTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ADBE71792A3E944000BE345C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		ADBE718A2A41606500BE345C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ADBE718A2A41606500BE345C /* GameSessionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSessionTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +115,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD61AD4D2A81A620007BAEF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD61AD572A81B530007BAEF9 /* Matched */,
+				AD61AD542A81AE7C007BAEF9 /* Profile */,
+				AD61AD512A81A7CA007BAEF9 /* Bedrock */,
+				AD61AD4E2A81A62D007BAEF9 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD61AD4E2A81A62D007BAEF9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AD61AD4F2A81A6CF007BAEF9 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AD61AD512A81A7CA007BAEF9 /* Bedrock */ = {
+			isa = PBXGroup;
+			children = (
+				AD61AD522A81A7F3007BAEF9 /* BedrockNavView.swift */,
+				AD61AD5D2A81CC4C007BAEF9 /* temp.swift */,
+				ADA82DE02A82D6870022A131 /* temp2.swift */,
+			);
+			path = Bedrock;
+			sourceTree = "<group>";
+		};
+		AD61AD542A81AE7C007BAEF9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AD61AD552A81B4D3007BAEF9 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AD61AD572A81B530007BAEF9 /* Matched */ = {
+			isa = PBXGroup;
+			children = (
+				AD61AD582A81B547007BAEF9 /* MatchesView.swift */,
+			);
+			path = Matched;
+			sourceTree = "<group>";
+		};
 		AD8DEDBA2A52529900D67167 /* Old_Stuff */ = {
 			isa = PBXGroup;
 			children = (
 				ADBE71512A3549D900BE345C /* ContentView.swift */,
-				ADBE718A2A41606500BE345C /* HomeView.swift */,
+				ADBE718A2A41606500BE345C /* GameSessionTestView.swift */,
 			);
 			path = Old_Stuff;
 			sourceTree = "<group>";
@@ -202,6 +259,7 @@
 		ADBE714E2A3549D900BE345C /* KobbleBackendTest */ = {
 			isa = PBXGroup;
 			children = (
+				AD61AD4D2A81A620007BAEF9 /* Views */,
 				AD8DEDFF2A64139100D67167 /* Features */,
 				AD8DEDF72A63D05100D67167 /* Core */,
 				AD8DEDBB2A5BEB0A00D67167 /* PersistenceTest */,
@@ -383,12 +441,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA82DE12A82D6870022A131 /* temp2.swift in Sources */,
 				AD8DEDBD2A5BEB1E00D67167 /* PersistenceTestView.swift in Sources */,
-				ADBE718B2A41606500BE345C /* HomeView.swift in Sources */,
+				ADBE718B2A41606500BE345C /* GameSessionTestView.swift in Sources */,
+				AD61AD592A81B547007BAEF9 /* MatchesView.swift in Sources */,
 				AD8DEE032A6413C800D67167 /* UserProfile.swift in Sources */,
+				AD61AD502A81A6CF007BAEF9 /* HomeView.swift in Sources */,
+				AD61AD5E2A81CC4C007BAEF9 /* temp.swift in Sources */,
+				AD61AD562A81B4D3007BAEF9 /* ProfileView.swift in Sources */,
 				AD8DEDFE2A63DB8100D67167 /* Shareable.swift in Sources */,
 				ADBE71522A3549D900BE345C /* ContentView.swift in Sources */,
 				AD8DEDFC2A63DB4E00D67167 /* Interactable.swift in Sources */,
+				AD61AD532A81A7F3007BAEF9 /* BedrockNavView.swift in Sources */,
 				AD8DEDFA2A63DB1900D67167 /* Ownable.swift in Sources */,
 				AD8DEE062A641B8E00D67167 /* Genders.swift in Sources */,
 				ADBE71502A3549D900BE345C /* KobbleBackendTestApp.swift in Sources */,
@@ -432,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -492,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

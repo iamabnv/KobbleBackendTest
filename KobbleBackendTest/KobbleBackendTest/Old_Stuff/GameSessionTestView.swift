@@ -79,7 +79,7 @@ enum Players: String {
     case player2 = "Player2"
 }
 
-struct HomeView: View {
+struct GameSessionTestView: View {
     
     @State private var selectedTrait: Traits = .leadership
     
@@ -215,8 +215,8 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
+struct GameSessionTestView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        GameSessionTestView()
     }
 }
