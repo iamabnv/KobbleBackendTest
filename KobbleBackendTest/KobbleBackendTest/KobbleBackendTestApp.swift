@@ -22,7 +22,7 @@ struct KobbleBackendTestApp: App {
     
     var body: some Scene {
         WindowGroup {
-            VRoot()
+            View_Network_Profile()
         }
     }
 }
