@@ -15,6 +15,10 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     }
 }
 
+class navclass: ObservableObject {
+    @Published var adc: [HomeViews] = []
+}
+
 @main
 struct KobbleBackendTestApp: App {
     
