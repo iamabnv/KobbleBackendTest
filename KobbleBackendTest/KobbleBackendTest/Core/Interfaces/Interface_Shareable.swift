@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol Shareable {
+protocol IShareable {
     func share()
 }

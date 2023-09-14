@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Interactable {
+protocol IInteractable {
     func beginInteraction()
     func endInteraction()
 }
