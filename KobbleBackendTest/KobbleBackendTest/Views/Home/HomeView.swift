@@ -83,10 +83,9 @@ struct TopBarView2: View {
                     .resizable()
                     .frame(width: 50, height: 50)
             }
-            .padding(.top, 80)
-            .padding(.bottom, 32)
+            .padding(.bottom, 8)
         }
-        .frame(height: 120)
+        .frame(maxHeight: 100)
     }
 }
 
