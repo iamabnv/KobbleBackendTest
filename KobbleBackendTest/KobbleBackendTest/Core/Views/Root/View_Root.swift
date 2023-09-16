@@ -45,3 +45,42 @@ struct VRoot_Previews: PreviewProvider {
         VRoot()
     }
 }
+
+struct VHome_TopBar: View {
+    var body: some View {
+        VStack {
+            
+            Spacer()
+                .frame(height: 45)
+            
+            HStack {
+                Button {
+                    
+                } label: {
+                    Image(systemName: "person.crop.circle")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .foregroundColor(.white)
+                    
+                }
+                
+                Spacer()
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "person.crop.circle")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .foregroundColor(.white)
+                    
+                }
+            }
+            .padding()
+            .padding(.horizontal, 8)
+        }
+        .frame(maxWidth: .infinity)
+        .background(Color.pink)
+        .offset(y: -15)
+    }
+}

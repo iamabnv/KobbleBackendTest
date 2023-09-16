@@ -16,7 +16,7 @@ struct VTabbed: View {
             Text("Profile")
                 .tag(ENavigationDestinations.View_Profile)
             
-            Text("Home")
+            VHome_Root(selectedTab: $selectedTab)
                 .tag(ENavigationDestinations.View_Home)
             
             Text("Matches")

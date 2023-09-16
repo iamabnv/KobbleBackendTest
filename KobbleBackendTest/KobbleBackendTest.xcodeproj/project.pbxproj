@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD29C9A12A982B7400A85B3E /* View_Home_Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD29C9A02A982B7400A85B3E /* View_Home_Root.swift */; };
+		AD29C9A42A9836C600A85B3E /* View_Network_Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD29C9A32A9836C600A85B3E /* View_Network_Profile.swift */; };
 		AD61AD502A81A6CF007BAEF9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61AD4F2A81A6CF007BAEF9 /* HomeView.swift */; };
 		AD61AD532A81A7F3007BAEF9 /* BedrockNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61AD522A81A7F3007BAEF9 /* BedrockNavView.swift */; };
 		AD61AD562A81B4D3007BAEF9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61AD552A81B4D3007BAEF9 /* ProfileView.swift */; };
@@ -22,6 +24,7 @@
 		AD62C1A32A89690E000C4FED /* Enum_NavigationDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62C1A22A89690E000C4FED /* Enum_NavigationDestinations.swift */; };
 		AD62C1A52A896B60000C4FED /* View_Tabbed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62C1A42A896B60000C4FED /* View_Tabbed.swift */; };
 		AD62C1A72A897210000C4FED /* Class_NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62C1A62A897210000C4FED /* Class_NavigationManager.swift */; };
+		AD71C9B12AAD42E6003CA6ED /* tempLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD71C9B02AAD42E6003CA6ED /* tempLevelView.swift */; };
 		AD8DEDBD2A5BEB1E00D67167 /* PersistenceTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDBC2A5BEB1E00D67167 /* PersistenceTestView.swift */; };
 		AD8DEDFA2A63DB1900D67167 /* Interface_Ownable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDF92A63DB1900D67167 /* Interface_Ownable.swift */; };
 		AD8DEDFC2A63DB4E00D67167 /* Interface_Interactable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DEDFB2A63DB4E00D67167 /* Interface_Interactable.swift */; };
@@ -66,6 +69,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD29C9A02A982B7400A85B3E /* View_Home_Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Home_Root.swift; sourceTree = "<group>"; };
+		AD29C9A32A9836C600A85B3E /* View_Network_Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Network_Profile.swift; sourceTree = "<group>"; };
 		AD61AD4F2A81A6CF007BAEF9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AD61AD522A81A7F3007BAEF9 /* BedrockNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedrockNavView.swift; sourceTree = "<group>"; };
 		AD61AD552A81B4D3007BAEF9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -82,6 +87,7 @@
 		AD62C1A22A89690E000C4FED /* Enum_NavigationDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum_NavigationDestinations.swift; sourceTree = "<group>"; };
 		AD62C1A42A896B60000C4FED /* View_Tabbed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Tabbed.swift; sourceTree = "<group>"; };
 		AD62C1A62A897210000C4FED /* Class_NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_NavigationManager.swift; sourceTree = "<group>"; };
+		AD71C9B02AAD42E6003CA6ED /* tempLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempLevelView.swift; sourceTree = "<group>"; };
 		AD8DEDBC2A5BEB1E00D67167 /* PersistenceTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTestView.swift; sourceTree = "<group>"; };
 		AD8DEDF92A63DB1900D67167 /* Interface_Ownable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface_Ownable.swift; sourceTree = "<group>"; };
 		AD8DEDFB2A63DB4E00D67167 /* Interface_Interactable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface_Interactable.swift; sourceTree = "<group>"; };
@@ -135,6 +141,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD29C99F2A982B4300A85B3E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AD29C9A02A982B7400A85B3E /* View_Home_Root.swift */,
+        );
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AD61AD4D2A81A620007BAEF9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +167,15 @@
 			);
 			path = Home;
 			sourceTree = "<group>";
+		};
+		AD29C9A22A9836AE00A85B3E /* Network_Singles */ = {
+			isa = PBXGroup;
+			children = (
+				AD29C9A32A9836C600A85B3E /* View_Network_Profile.swift */,
+				AD71C9B02AAD42E6003CA6ED /* tempLevelView.swift */,
+			);
+			path = Network_Singles;
+      sourceTree = "<group>";
 		};
 		AD61AD512A81A7CA007BAEF9 /* Bedrock */ = {
 			isa = PBXGroup;
@@ -204,6 +227,7 @@
 		AD62C1A02A8966E4000C4FED /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD29C99F2A982B4300A85B3E /* Home */,
 				AD62C1A12A896715000C4FED /* Navigation */,
 				AD62C19D2A8966B1000C4FED /* Root */,
 			);
@@ -269,6 +293,7 @@
 		AD8DEDFF2A64139100D67167 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				AD29C9A22A9836AE00A85B3E /* Network_Singles */,
 				AD29C9922A969A5100A85B3E /* SignUpNew */,
 			);
 			path = Features;
@@ -518,10 +543,13 @@
 				AD8DEDFE2A63DB8100D67167 /* Interface_Shareable.swift in Sources */,
 				AD29C99C2A969A6400A85B3E /* View_SignUpRoot.swift in Sources */,
 				AD62C1A52A896B60000C4FED /* View_Tabbed.swift in Sources */,
+				AD29C9A42A9836C600A85B3E /* View_Network_Profile.swift in Sources */,
 				AD62C19F2A8966C0000C4FED /* View_Root.swift in Sources */,
+				AD71C9B12AAD42E6003CA6ED /* tempLevelView.swift in Sources */,
 				AD62C1A72A897210000C4FED /* Class_NavigationManager.swift in Sources */,
 				ADBE71522A3549D900BE345C /* ContentView.swift in Sources */,
 				AD8DEDFC2A63DB4E00D67167 /* Interface_Interactable.swift in Sources */,
+				AD29C9A12A982B7400A85B3E /* View_Home_Root.swift in Sources */,
 				AD62C1A32A89690E000C4FED /* Enum_NavigationDestinations.swift in Sources */,
 				AD8DEDFA2A63DB1900D67167 /* Interface_Ownable.swift in Sources */,
 				AD29C99B2A969A6400A85B3E /* View_SignUpResults.swift in Sources */,
