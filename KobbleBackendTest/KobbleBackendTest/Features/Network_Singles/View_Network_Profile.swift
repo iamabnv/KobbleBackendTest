@@ -32,7 +32,7 @@ struct View_Network_Profile: View {
                 ScrollView {
                     
                     Spacer()
-                        .frame(height: 60)
+                        .frame(height: 100)
                     
                     VStack (spacing: 16) {
                         
@@ -51,7 +51,7 @@ struct View_Network_Profile: View {
                                 .font(.system(size: 24))
                                 .fontDesign(.rounded)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.white)
+                                .foregroundColor(.accentColor)
                                 .padding(.top, 8)
                             
                             Text("He/Him")
@@ -63,15 +63,15 @@ struct View_Network_Profile: View {
                             
                             HStack (spacing: 32) {
                                 Image(systemName: "fleuron")
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .font(.system(size: 20))
                                 
                                 Image(systemName: "pencil.slash")
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .font(.system(size: 20))
                                 
                                 Image(systemName: "menucard")
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .font(.system(size: 20))
                             }
                             .padding(.top, 14)
@@ -83,13 +83,13 @@ struct View_Network_Profile: View {
                                 .font(.system(size: 16))
                                 .fontDesign(.rounded)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.white.opacity(0.8))
+                                .foregroundColor(.accentColor.opacity(0.8))
                             
                             Text("Junior at University of Pennsylvania")
                                 .font(.system(size: 16))
                                 .fontDesign(.rounded)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.white.opacity(0.8))
+                                .foregroundColor(.accentColor.opacity(0.8))
                         }
                         .frame(maxWidth: .infinity)
                         .padding(.top, 6)
@@ -100,13 +100,16 @@ struct View_Network_Profile: View {
                     HStack (spacing: 72) {
                         Image(systemName: "heart.fill")
                             .font(.system(size: 30))
+                            .foregroundColor(.accentColor)
                         
                         
                         Image(systemName: "gamecontroller.fill")
                             .font(.system(size: 30))
+                            .foregroundColor(.accentColor)
                         
                         Image(systemName: "message.fill")
                             .font(.system(size: 30))
+                            .foregroundColor(.accentColor)
                     }
                     .frame(maxWidth: .infinity)
                     .padding(.top, 24)
@@ -117,7 +120,7 @@ struct View_Network_Profile: View {
                             .font(.system(size: 16))
                             .fontDesign(.rounded)
                             .fontWeight(.semibold)
-                            .foregroundColor(.white)
+                            .foregroundColor(.accentColor)
                             .padding(.horizontal)
                             .padding(.top, showAbout ? 24 : 14)
                         
@@ -127,7 +130,7 @@ struct View_Network_Profile: View {
                                     .font(.system(size: 14))
                                     .fontWeight(.semibold)
                                     .fontDesign(.rounded)
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .padding(8)
                                     .background {
                                         RoundedRectangle(cornerRadius: 24)
@@ -138,7 +141,7 @@ struct View_Network_Profile: View {
                                     .font(.system(size: 14))
                                     .fontWeight(.semibold)
                                     .fontDesign(.rounded)
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .padding(8)
                                     .background {
                                         RoundedRectangle(cornerRadius: 24)
@@ -149,7 +152,7 @@ struct View_Network_Profile: View {
                                     .font(.system(size: 14))
                                     .fontWeight(.semibold)
                                     .fontDesign(.rounded)
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .padding(8)
                                     .background {
                                         RoundedRectangle(cornerRadius: 24)
@@ -165,7 +168,7 @@ struct View_Network_Profile: View {
                                     .font(.system(size: 14))
                                     .fontWeight(.semibold)
                                     .fontDesign(.rounded)
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .padding(8)
                                     .background {
                                         RoundedRectangle(cornerRadius: 24)
@@ -176,7 +179,7 @@ struct View_Network_Profile: View {
                                     .font(.system(size: 14))
                                     .fontWeight(.semibold)
                                     .fontDesign(.rounded)
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .padding(8)
                                     .background {
                                         RoundedRectangle(cornerRadius: 24)
@@ -192,7 +195,7 @@ struct View_Network_Profile: View {
                                     .font(.system(size: 14))
                                     .fontWeight(.semibold)
                                     .fontDesign(.rounded)
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .padding(8)
                                     .background {
                                         RoundedRectangle(cornerRadius: 24)
@@ -203,7 +206,7 @@ struct View_Network_Profile: View {
                                     .font(.system(size: 14))
                                     .fontWeight(.semibold)
                                     .fontDesign(.rounded)
-                                    .foregroundColor(.white.opacity(0.8))
+                                    .foregroundColor(.accentColor.opacity(0.8))
                                     .padding(8)
                                     .background {
                                         RoundedRectangle(cornerRadius: 24)
@@ -223,7 +226,7 @@ struct View_Network_Profile: View {
                                 .font(.system(size: 16))
                                 .fontDesign(.rounded)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.white)
+                                .foregroundColor(.accentColor)
                                 .padding(.horizontal)
                                 .padding(.top, 12)
                             
@@ -231,7 +234,7 @@ struct View_Network_Profile: View {
                                 .font(.system(size: 16))
                                 .fontDesign(.rounded)
                                 .fontWeight(.medium)
-                                .foregroundColor(.white.opacity(0.8))
+                                .foregroundColor(.accentColor.opacity(0.8))
                                 .padding(.horizontal)
                                 .padding(.top, 4)
                             
@@ -239,7 +242,7 @@ struct View_Network_Profile: View {
                                 .font(.system(size: 16))
                                 .fontDesign(.rounded)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.white)
+                                .foregroundColor(.accentColor)
                                 .padding(.horizontal)
                                 .padding(.top, 12)
                             
@@ -249,7 +252,7 @@ struct View_Network_Profile: View {
                                         .font(.system(size: 14))
                                         .fontWeight(.semibold)
                                         .fontDesign(.rounded)
-                                        .foregroundColor(.white.opacity(0.8))
+                                        .foregroundColor(.accentColor.opacity(0.8))
                                         .padding(8)
                                         .background {
                                             RoundedRectangle(cornerRadius: 24)
@@ -260,7 +263,7 @@ struct View_Network_Profile: View {
                                         .font(.system(size: 14))
                                         .fontWeight(.semibold)
                                         .fontDesign(.rounded)
-                                        .foregroundColor(.white.opacity(0.8))
+                                        .foregroundColor(.accentColor.opacity(0.8))
                                         .padding(8)
                                         .background {
                                             RoundedRectangle(cornerRadius: 24)
@@ -271,7 +274,7 @@ struct View_Network_Profile: View {
                                         .font(.system(size: 14))
                                         .fontWeight(.semibold)
                                         .fontDesign(.rounded)
-                                        .foregroundColor(.white.opacity(0.8))
+                                        .foregroundColor(.accentColor.opacity(0.8))
                                         .padding(8)
                                         .background {
                                             RoundedRectangle(cornerRadius: 24)
@@ -287,7 +290,7 @@ struct View_Network_Profile: View {
                                         .font(.system(size: 14))
                                         .fontWeight(.semibold)
                                         .fontDesign(.rounded)
-                                        .foregroundColor(.white.opacity(0.8))
+                                        .foregroundColor(.accentColor.opacity(0.8))
                                         .padding(8)
                                         .background {
                                             RoundedRectangle(cornerRadius: 24)
@@ -298,7 +301,7 @@ struct View_Network_Profile: View {
                                         .font(.system(size: 14))
                                         .fontWeight(.semibold)
                                         .fontDesign(.rounded)
-                                        .foregroundColor(.white.opacity(0.8))
+                                        .foregroundColor(.accentColor.opacity(0.8))
                                         .padding(8)
                                         .background {
                                             RoundedRectangle(cornerRadius: 24)
@@ -314,7 +317,7 @@ struct View_Network_Profile: View {
                                         .font(.system(size: 14))
                                         .fontWeight(.semibold)
                                         .fontDesign(.rounded)
-                                        .foregroundColor(.white.opacity(0.8))
+                                        .foregroundColor(.accentColor.opacity(0.8))
                                         .padding(8)
                                         .background {
                                             RoundedRectangle(cornerRadius: 24)
@@ -325,7 +328,7 @@ struct View_Network_Profile: View {
                                         .font(.system(size: 14))
                                         .fontWeight(.semibold)
                                         .fontDesign(.rounded)
-                                        .foregroundColor(.white.opacity(0.8))
+                                        .foregroundColor(.accentColor.opacity(0.8))
                                         .padding(8)
                                         .background {
                                             RoundedRectangle(cornerRadius: 24)
@@ -411,7 +414,7 @@ struct View_Network_Profile: View {
                     .frame(maxWidth: .infinity)
                     
                     Spacer()
-                        .frame(height: 10)
+                        .frame(height: 50)
                     
                     
                 }
@@ -434,7 +437,7 @@ struct View_Network_Profile: View {
                             .foregroundColor(.white)
                     }
                     .padding(.horizontal)
-                    .padding(.top)
+                    .padding(.top, 72)
                     
                     TabView {
                         ForEach(pfps, id: \.self) {i in
@@ -448,11 +451,14 @@ struct View_Network_Profile: View {
                     }
                     .tabViewStyle(PageTabViewStyle())
                 }
+                .padding(.bottom, 24)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Material.ultraThinMaterial)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .ignoresSafeArea()
+        .gesture(showPfp == true ? DragGesture() : nil)
     }
     
 }
@@ -500,17 +506,16 @@ struct View_Network_Profile_TopBar: View {
     var body: some View {
         VStack {
             Spacer()
-                .frame(height: 10)
             
             HStack {
                 Text("Profile")
                     .fontDesign(.rounded)
                     .fontWeight(.semibold)
-                    .foregroundColor(.white)
+                    .foregroundColor(.accentColor)
+                    .padding(.bottom, 8)
             }
-            .padding(.bottom, 8)
         }
-        .frame(maxWidth: .infinity)
+        .frame(maxWidth: .infinity, maxHeight: 80)
         .background(Color.black)
     }
 }

@@ -13,37 +13,54 @@ case SearchView
 case PlayView
 case RequestsView
 case SettingsView
+case BedRockNavView
 }
 
 struct HomeView: View {
     @Binding var selectedTab: Tab
     
     var body: some View {
-        GeometryReader { geometry in
-            ScrollView(.vertical, showsIndicators: false) {
-                VStack(spacing: 20) {
-                    ForEach(0..<20) { _ in
-                        CardView()
-                    }
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(spacing: 20) {
+                ForEach(0..<20) { _ in
+                    CardView()
                 }
-                .padding()
-                .padding(.top, 120)
             }
-            .overlay(alignment: .top) {
-                TopBarView2(selectedTab: $selectedTab)
-                    .frame(width: geometry.size.width)
-                    .background(Color.black)
-                    .offset(y: 0)
-            }
-            .overlay(alignment: .bottom) {
-                BottomBarView()
-                    .frame(width: geometry.size.width)
-                    .background(Color.black)
-                    .offset(y: 0)
-            }
+            .padding()
+            .padding(.top, 120)
+        }
+        .edgesIgnoringSafeArea(.all)
+        .overlay(alignment: .top) {
+            TopBarView2(selectedTab: $selectedTab)
+                .frame(maxWidth: .infinity)
+                .background(Color.blue)
+                .offset(y: 0)
+        }
+        .overlay(alignment: .bottom) {
+            BottomBarView()
+                .frame(maxWidth: .infinity)
+                .background(Color.blue)
+                .offset(y: 0)
         }
     }
 }
+
+/**
+ 
+ .overlay(alignment: .top) {
+ TopBarView2(selectedTab: $selectedTab)
+ .frame(width: geometry.size.width)
+ .background(Color.black)
+ .offset(y: 0)
+ }
+ .overlay(alignment: .bottom) {
+ BottomBarView()
+ .frame(width: geometry.size.width)
+ .background(Color.black)
+ .offset(y: 0)
+ }
+ 
+ **/
 
 struct CardView: View {
     var body: some View {
@@ -82,10 +99,11 @@ struct TopBarView2: View {
                 Image("koba")
                     .resizable()
                     .frame(width: 50, height: 50)
+                    .padding(.bottom, 8)
             }
-            .padding(.bottom, 8)
+            
         }
-        .frame(maxHeight: 100)
+        .frame(maxHeight: 105)
     }
 }
 
@@ -182,8 +200,8 @@ struct BottomBarView: View {
             .padding()
             
             Spacer()
+                .frame(height: 40)
         }
-        .frame(height: 75)
     }
 }
 

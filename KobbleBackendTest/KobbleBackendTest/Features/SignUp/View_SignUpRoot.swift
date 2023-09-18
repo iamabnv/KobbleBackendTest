@@ -13,10 +13,7 @@ struct VSignUpRoot: View {
     @State var current: Int? = 0
     
     var body: some View {
-        NavigationView {
-            
-            VSignUp_PhoneNumber()
-        }
+        VSignUp_PhoneNumber()
     }
 }
 
@@ -372,7 +369,7 @@ struct VSignUp_DOB: View {
 struct VSignUp_Gender: View {
     let genders = ["Male", "Female", "Other", "Prefer not to say"]
     //@State private var selectedGender: String = "Male"
-    @State private var buttonInd = 1
+    @State private var buttonInd = 0
     
     
     

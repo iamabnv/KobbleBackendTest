@@ -100,8 +100,8 @@ class das {
         rands = das.getRandomQuestionSet(fromFile: "questionSets")
         
         if let randomSet = das.getRandomQuestionSet(fromFile: "questionSets") {
-            print("-------------------------------- RANDOM SET ----------------------------")
-            print(randomSet)
+            //print("-------------------------------- RANDOM SET ----------------------------")
+            //print(randomSet)
         }
         
         compatibilityMatrix = CompatibilityMatrix(matrix: [
@@ -120,12 +120,12 @@ class das {
         ])
         
         let traitRatings = das.calculateTraitRatings(userAnswers: userAnswers)
-        print("-------------------------------- MY TRAITS ----------------------------")
-        print(traitRatings)
+        //print("-------------------------------- MY TRAITS ----------------------------")
+        //print(traitRatings)
         
         let desiredPartnerTraits = das.computeDesiredPartnerTraits(userScores: traitRatings, compatibilityMatrix: compatibilityMatrix!)
-        print("-------------------------------- DESIRED PARTNER TRAITS ----------------------------")
-        print(desiredPartnerTraits)
+        //print("-------------------------------- DESIRED PARTNER TRAITS ----------------------------")
+        //print(desiredPartnerTraits)
     }
     
     //let traitRatings = das.calculateTraitRatings(userAnswers: userAnswers)

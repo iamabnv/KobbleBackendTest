@@ -141,9 +141,22 @@ struct VSignUp_Final: View {
     
     var userId = "9QQFKaOuZlRy2IhjbQXh"
     
+    @EnvironmentObject var appManager : CAppManager
+    
+    @EnvironmentObject var phh : navclass
+    
+    @State private var isShowingDetailView = false
+    
     var body: some View {
         VStack {
             Text("Welcome to Kobble")
+            
+            //NavigationLink(destination: BedrockNavView(), isActive: $isShowingDetailView) { EmptyView() }
+            
+            Button("dasd") {
+                //isShowingDetailView = true
+                phh.adc.append(HomeViews.BedRockNavView)
+            }
             
             Button("Submit registration")
             {
@@ -176,9 +189,13 @@ struct VSignUp_Final: View {
                             print("An error occurred: \(error.localizedDescription)")
                         }
                         
+                        appManager.currentUserId = documentId
+                        isShowingDetailView = true
+                        
                         if let resultData = (result?.data as? [String: Any]) {
                             // Handle the result
                             print("Result data: \(resultData)")
+                            
                         }
                     }
                 }
@@ -205,7 +222,6 @@ struct VSignUp_Final: View {
                 }
             }
         }
-        .onAppear {
-        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
